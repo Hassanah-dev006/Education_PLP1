@@ -1,0 +1,42 @@
+{
+  "course_code": "demo101",
+  "title": "Demo Course",
+  "students": {
+    "s1": {
+      "id": "s1",
+      "name": "Alice",
+      "scores": {
+        "HW1": 18,
+        "Exam": 85
+      }
+    },
+    "s2": {
+      "id": "s2",
+      "name": "Bob",
+      "scores": {
+        "HW1": 12,
+        "Exam": 70
+      }
+    },
+    "s3": {
+      "id": "s3",
+      "name": "Charlie",
+      "scores": {
+        "HW1": 19,
+        "Exam": 95
+      }
+    }
+  },
+  "assignments": {
+    "HW1": {
+      "name": "HW1",
+      "weight": 0.3,
+      "max_score": 20
+    },
+    "Exam": {
+      "name": "Exam",
+      "weight": 0.7,
+      "max_score": 100
+    }
+  }
+}
